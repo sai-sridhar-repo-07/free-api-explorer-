@@ -37,9 +37,9 @@ Current catalog snapshot:
 
 - `1,426` APIs
 - `51` categories
-- `1,034` verified documentation links
+- `1,033` verified documentation links
 - `113` GitHub-hosted documentation links
-- `48` protected documentation links
+- `49` protected documentation links
 - `231` links marked as needing review
 
 ## Who Can Use This

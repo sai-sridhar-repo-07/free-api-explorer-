@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-04-30T05:18:17.804Z",
+  "checkedAt": "2026-04-30T05:48:18.717Z",
   "total": 1426,
   "summary": {
-    "limited": 48,
-    "ok": 1034,
+    "limited": 49,
+    "ok": 1033,
     "github": 113,
     "bad": 231
   },
@@ -97,13 +97,6 @@
       "Category": "Art & Design",
       "Link": "https://api.amethyste.moe/",
       "FinalLink": "https://api.amethyste.moe/",
-      "statusCode": 0
-    },
-    {
-      "API": "Cooper Hewitt",
-      "Category": "Art & Design",
-      "Link": "https://collection.cooperhewitt.org/api",
-      "FinalLink": "https://collection.cooperhewitt.org/api",
       "statusCode": 0
     },
     {
@@ -454,7 +447,7 @@
       "Category": "Development",
       "Link": "https://gorest.co.in/",
       "FinalLink": "https://gorest.co.in/",
-      "statusCode": 404
+      "statusCode": 503
     },
     {
       "API": "Httpbin Cloudflare",
@@ -602,13 +595,6 @@
       "Link": "https://data.nationalgrideso.com/",
       "FinalLink": "https://data.nationalgrideso.com/",
       "statusCode": 0
-    },
-    {
-      "API": "Fed Treasury",
-      "Category": "Finance",
-      "Link": "https://fiscaldata.treasury.gov/api-documentation/",
-      "FinalLink": "https://fiscaldata.treasury.gov/api-documentation/",
-      "statusCode": 503
     },
     {
       "API": "FRED",
@@ -937,6 +923,13 @@
       "Category": "Health",
       "Link": "https://data.covid19.go.id/public/api/prov.json",
       "FinalLink": "https://data.covid19.go.id/public/api/prov.json",
+      "statusCode": 0
+    },
+    {
+      "API": "Makeup",
+      "Category": "Health",
+      "Link": "http://makeup-api.herokuapp.com/",
+      "FinalLink": "http://makeup-api.herokuapp.com/",
       "statusCode": 0
     },
     {
@@ -1479,6 +1472,13 @@
       "statusCode": 0
     },
     {
+      "API": "Transport for Hessen, Germany",
+      "Category": "Transportation",
+      "Link": "https://opendata.rmv.de/site/start.html",
+      "FinalLink": "https://opendata.rmv.de/site/start.html",
+      "statusCode": 0
+    },
+    {
       "API": "Transport for London, England",
       "Category": "Transportation",
       "Link": "https://api.tfl.gov.uk",
@@ -1563,6 +1563,13 @@
       "statusCode": 404
     },
     {
+      "API": "Dailymotion",
+      "Category": "Video",
+      "Link": "https://developer.dailymotion.com/",
+      "FinalLink": "https://developer.dailymotion.com/",
+      "statusCode": 0
+    },
+    {
       "API": "Harry Potter Charactes",
       "Category": "Video",
       "Link": "https://hp-api.herokuapp.com/",
@@ -1609,13 +1616,6 @@
       "Category": "Weather",
       "Link": "https://opendata.aemet.es/centrodedescargas/inicio",
       "FinalLink": "https://opendata.aemet.es/centrodedescargas/inicio",
-      "statusCode": 0
-    },
-    {
-      "API": "ColorfulClouds",
-      "Category": "Weather",
-      "Link": "https://open.caiyunapp.com/ColorfulClouds_Weather_API",
-      "FinalLink": "https://open.caiyunapp.com/ColorfulClouds_Weather_API",
       "statusCode": 0
     },
     {
