@@ -1,0 +1,11 @@
+Free API Keys
+
+This app and repository structure are authored by the owner of this repository.
+
+Catalog data is loaded from the public-apis ecosystem, based on:
+https://github.com/public-apis/public-apis
+
+The upstream public-apis repository is distributed under the MIT License.
+This notice is included to preserve attribution for the data source while keeping
+this repository's app code, interface, structure, and documentation as this
+project's own work.

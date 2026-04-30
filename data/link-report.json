@@ -1,0 +1,1629 @@
+{
+  "checkedAt": "2026-04-30T05:18:17.804Z",
+  "total": 1426,
+  "summary": {
+    "limited": 48,
+    "ok": 1034,
+    "github": 113,
+    "bad": 231
+  },
+  "needsReview": [
+    {
+      "API": "Cataas",
+      "Category": "Animals",
+      "Link": "https://cataas.com/",
+      "FinalLink": "https://cataas.com/",
+      "statusCode": 404
+    },
+    {
+      "API": "IUCN",
+      "Category": "Animals",
+      "Link": "http://apiv3.iucnredlist.org/api/v3/docs",
+      "FinalLink": "https://apiv3.iucnredlist.org/api/v3/docs",
+      "statusCode": 525
+    },
+    {
+      "API": "PlaceKitten",
+      "Category": "Animals",
+      "Link": "https://placekitten.com/",
+      "FinalLink": "https://placekitten.com/",
+      "statusCode": 521
+    },
+    {
+      "API": "Shibe.Online",
+      "Category": "Animals",
+      "Link": "http://shibe.online/",
+      "FinalLink": "http://shibe.online/",
+      "statusCode": 0
+    },
+    {
+      "API": "Zoo Animals",
+      "Category": "Animals",
+      "Link": "https://zoo-animal-api.herokuapp.com/",
+      "FinalLink": "https://zoo-animal-api.herokuapp.com/",
+      "statusCode": 404
+    },
+    {
+      "API": "MangaDex",
+      "Category": "Anime",
+      "Link": "https://api.mangadex.org/docs.html",
+      "FinalLink": "https://api.mangadex.org/docs.html",
+      "statusCode": 404
+    },
+    {
+      "API": "Shikimori",
+      "Category": "Anime",
+      "Link": "https://shikimori.one/api/doc",
+      "FinalLink": "https://shikimori.one/api/doc",
+      "statusCode": 502
+    },
+    {
+      "API": "Studio Ghibli",
+      "Category": "Anime",
+      "Link": "https://ghibliapi.herokuapp.com",
+      "FinalLink": "https://ghibliapi.herokuapp.com/",
+      "statusCode": 404
+    },
+    {
+      "API": "Waifu.pics",
+      "Category": "Anime",
+      "Link": "https://waifu.pics/docs",
+      "FinalLink": "https://waifu.pics/docs",
+      "statusCode": 0
+    },
+    {
+      "API": "AlienVault Open Threat Exchange (OTX)",
+      "Category": "Anti-Malware",
+      "Link": "https://otx.alienvault.com/api",
+      "FinalLink": "https://otx.alienvault.com/api",
+      "statusCode": 404
+    },
+    {
+      "API": "MalDatabase",
+      "Category": "Anti-Malware",
+      "Link": "https://maldatabase.com/api-doc.html",
+      "FinalLink": "https://maldatabase.com/api-doc.html",
+      "statusCode": 0
+    },
+    {
+      "API": "Phisherman",
+      "Category": "Anti-Malware",
+      "Link": "https://phisherman.gg/",
+      "FinalLink": "https://phisherman.gg/",
+      "statusCode": 0
+    },
+    {
+      "API": "Améthyste",
+      "Category": "Art & Design",
+      "Link": "https://api.amethyste.moe/",
+      "FinalLink": "https://api.amethyste.moe/",
+      "statusCode": 0
+    },
+    {
+      "API": "Cooper Hewitt",
+      "Category": "Art & Design",
+      "Link": "https://collection.cooperhewitt.org/api",
+      "FinalLink": "https://collection.cooperhewitt.org/api",
+      "statusCode": 0
+    },
+    {
+      "API": "Pixel Encounter",
+      "Category": "Art & Design",
+      "Link": "https://pixelencounter.com/api",
+      "FinalLink": "https://pixelencounter.com/api",
+      "statusCode": 0
+    },
+    {
+      "API": "Rijksmuseum",
+      "Category": "Art & Design",
+      "Link": "https://data.rijksmuseum.nl/object-metadata/api/",
+      "FinalLink": "https://data.rijksmuseum.nl/object-metadata/api/",
+      "statusCode": 404
+    },
+    {
+      "API": "xColors",
+      "Category": "Art & Design",
+      "Link": "https://x-colors.herokuapp.com/",
+      "FinalLink": "https://x-colors.herokuapp.com/",
+      "statusCode": 404
+    },
+    {
+      "API": "SAWO Labs",
+      "Category": "Authentication & Authorization",
+      "Link": "https://sawolabs.com",
+      "FinalLink": "https://sawolabs.com",
+      "statusCode": 0
+    },
+    {
+      "API": "Covalent",
+      "Category": "Blockchain",
+      "Link": "https://www.covalenthq.com/docs/api/",
+      "FinalLink": "https://goldrush.mintlify.app/docs/api",
+      "statusCode": 404
+    },
+    {
+      "API": "Walltime",
+      "Category": "Blockchain",
+      "Link": "https://walltime.info/api.html",
+      "FinalLink": "https://walltime.info/api.html",
+      "statusCode": 0
+    },
+    {
+      "API": "British National Bibliography",
+      "Category": "Books",
+      "Link": "http://bnb.data.bl.uk/",
+      "FinalLink": "http://bnb.data.bl.uk/",
+      "statusCode": 0
+    },
+    {
+      "API": "Ganjoor",
+      "Category": "Books",
+      "Link": "https://api.ganjoor.net",
+      "FinalLink": "https://api.ganjoor.net/",
+      "statusCode": 404
+    },
+    {
+      "API": "GurbaniNow",
+      "Category": "Books",
+      "Link": "https://github.com/GurbaniNow/api",
+      "FinalLink": "https://github.com/GurbaniNow/api",
+      "statusCode": 404
+    },
+    {
+      "API": "Rig Veda",
+      "Category": "Books",
+      "Link": "https://aninditabasu.github.io/indica/html/rv.html",
+      "FinalLink": "https://aninditabasu.github.io/indica/html/rv.html",
+      "statusCode": 404
+    },
+    {
+      "API": "Vedic Society",
+      "Category": "Books",
+      "Link": "https://aninditabasu.github.io/indica/html/vs.html",
+      "FinalLink": "https://aninditabasu.github.io/indica/html/vs.html",
+      "statusCode": 404
+    },
+    {
+      "API": "Wizard World",
+      "Category": "Books",
+      "Link": "https://wizard-world-api.herokuapp.com/swagger/index.html",
+      "FinalLink": "https://wizard-world-api.herokuapp.com/swagger/index.html",
+      "statusCode": 404
+    },
+    {
+      "API": "ORB Intelligence",
+      "Category": "Business",
+      "Link": "https://api.orb-intelligence.com/docs/",
+      "FinalLink": "https://api.orb-intelligence.com/docs/",
+      "statusCode": 503
+    },
+    {
+      "API": "Square",
+      "Category": "Business",
+      "Link": "https://developer.squareup.com/reference/square",
+      "FinalLink": "https://developer.squareup.com/reference/square",
+      "statusCode": 404
+    },
+    {
+      "API": "Tenders in Hungary",
+      "Category": "Business",
+      "Link": "https://tenders.guru/hu/api",
+      "FinalLink": "https://tenders.guru/hu/api",
+      "statusCode": 0
+    },
+    {
+      "API": "Tenders in Poland",
+      "Category": "Business",
+      "Link": "https://tenders.guru/pl/api",
+      "FinalLink": "https://tenders.guru/pl/api",
+      "statusCode": 0
+    },
+    {
+      "API": "Tenders in Romania",
+      "Category": "Business",
+      "Link": "https://tenders.guru/ro/api",
+      "FinalLink": "https://tenders.guru/ro/api",
+      "statusCode": 0
+    },
+    {
+      "API": "Tenders in Spain",
+      "Category": "Business",
+      "Link": "https://tenders.guru/es/api",
+      "FinalLink": "https://tenders.guru/es/api",
+      "statusCode": 0
+    },
+    {
+      "API": "Tenders in Ukraine",
+      "Category": "Business",
+      "Link": "https://tenders.guru/ua/api",
+      "FinalLink": "https://tenders.guru/ua/api",
+      "statusCode": 0
+    },
+    {
+      "API": "Czech Namedays Calendar",
+      "Category": "Calendar",
+      "Link": "https://svatky.adresa.info",
+      "FinalLink": "https://svatky.adresa.info/",
+      "statusCode": 402
+    },
+    {
+      "API": "AnonFiles",
+      "Category": "Cloud Storage & File Sharing",
+      "Link": "https://anonfiles.com/docs/api",
+      "FinalLink": "https://anonfiles.com/docs/api",
+      "statusCode": 0
+    },
+    {
+      "API": "BayFiles",
+      "Category": "Cloud Storage & File Sharing",
+      "Link": "https://bayfiles.com/docs/api",
+      "FinalLink": "https://bayfiles.com/docs/api",
+      "statusCode": 0
+    },
+    {
+      "API": "CircleCI",
+      "Category": "Continuous Integration",
+      "Link": "https://circleci.com/docs/api/v1-reference/",
+      "FinalLink": "https://circleci.com/docs/api/v1-reference/",
+      "statusCode": 404
+    },
+    {
+      "API": "0x",
+      "Category": "Cryptocurrency",
+      "Link": "https://0x.org/api",
+      "FinalLink": "https://0x.org/api",
+      "statusCode": 404
+    },
+    {
+      "API": "Alchemy Ethereum",
+      "Category": "Cryptocurrency",
+      "Link": "https://docs.alchemy.com/alchemy/",
+      "FinalLink": "https://www.alchemy.com/docs/alchemy",
+      "statusCode": 404
+    },
+    {
+      "API": "BitcoinAverage",
+      "Category": "Cryptocurrency",
+      "Link": "https://apiv2.bitcoinaverage.com/",
+      "FinalLink": "https://apiv2.bitcoinaverage.com/",
+      "statusCode": 0
+    },
+    {
+      "API": "BitcoinCharts",
+      "Category": "Cryptocurrency",
+      "Link": "https://bitcoincharts.com/about/exchanges/",
+      "FinalLink": "https://bitcoincharts.com/about/exchanges/",
+      "statusCode": 0
+    },
+    {
+      "API": "Bittrex",
+      "Category": "Cryptocurrency",
+      "Link": "https://bittrex.github.io/api/v3",
+      "FinalLink": "https://bittrex.github.io/api/v3",
+      "statusCode": 404
+    },
+    {
+      "API": "Bybit",
+      "Category": "Cryptocurrency",
+      "Link": "https://bybit-exchange.github.io/docs/linear/#t-introduction",
+      "FinalLink": "https://bybit-exchange.github.io/docs/linear/#t-introduction",
+      "statusCode": 404
+    },
+    {
+      "API": "CoinDesk",
+      "Category": "Cryptocurrency",
+      "Link": "https://old.coindesk.com/coindesk-api/",
+      "FinalLink": "https://old.coindesk.com/coindesk-api/",
+      "statusCode": 0
+    },
+    {
+      "API": "Coinlib",
+      "Category": "Cryptocurrency",
+      "Link": "https://coinlib.io/apidocs",
+      "FinalLink": "https://coinlib.io/apidocs",
+      "statusCode": 404
+    },
+    {
+      "API": "CoinRanking",
+      "Category": "Cryptocurrency",
+      "Link": "https://developers.coinranking.com/api/documentation",
+      "FinalLink": "https://developers.coinranking.com/api/documentation",
+      "statusCode": 503
+    },
+    {
+      "API": "CryptingUp",
+      "Category": "Cryptocurrency",
+      "Link": "https://www.cryptingup.com/apidoc/#introduction",
+      "FinalLink": "https://www.cryptingup.com/apidoc/#introduction",
+      "statusCode": 404
+    },
+    {
+      "API": "CryptoMarket",
+      "Category": "Cryptocurrency",
+      "Link": "https://api.exchange.cryptomkt.com/",
+      "FinalLink": "https://api.exchange.cryptomkt.com/",
+      "statusCode": 0
+    },
+    {
+      "API": "Cryptonator",
+      "Category": "Cryptocurrency",
+      "Link": "https://www.cryptonator.com/api/",
+      "FinalLink": "https://www.cryptonator.com/api/",
+      "statusCode": 0
+    },
+    {
+      "API": "MercadoBitcoin",
+      "Category": "Cryptocurrency",
+      "Link": "https://www.mercadobitcoin.com.br/api-doc/",
+      "FinalLink": "https://www.mercadobitcoin.com.br/api-doc/",
+      "statusCode": 404
+    },
+    {
+      "API": "Nomics",
+      "Category": "Cryptocurrency",
+      "Link": "https://nomics.com/docs/",
+      "FinalLink": "https://nomics.com/docs/",
+      "statusCode": 0
+    },
+    {
+      "API": "OKEx",
+      "Category": "Cryptocurrency",
+      "Link": "https://www.okex.com/docs/",
+      "FinalLink": "https://www.okex.com/docs/",
+      "statusCode": 0
+    },
+    {
+      "API": "Amdoren",
+      "Category": "Currency Exchange",
+      "Link": "https://www.amdoren.com/currency-api/",
+      "FinalLink": "https://www.amdoren.com/currency-api/",
+      "statusCode": 0
+    },
+    {
+      "API": "FreeForexAPI",
+      "Category": "Currency Exchange",
+      "Link": "https://freeforexapi.com/Home/Api",
+      "FinalLink": "https://freeforexapi.com/Home/Api",
+      "statusCode": 521
+    },
+    {
+      "API": "VATComply.com",
+      "Category": "Currency Exchange",
+      "Link": "https://www.vatcomply.com/documentation",
+      "FinalLink": "https://www.vatcomply.com/documentation",
+      "statusCode": 404
+    },
+    {
+      "API": "Bored",
+      "Category": "Development",
+      "Link": "https://www.boredapi.com/",
+      "FinalLink": "https://www.boredapi.com/",
+      "statusCode": 0
+    },
+    {
+      "API": "Brainshop.ai",
+      "Category": "Development",
+      "Link": "https://brainshop.ai/",
+      "FinalLink": "https://brainshop.ai/",
+      "statusCode": 0
+    },
+    {
+      "API": "Codex",
+      "Category": "Development",
+      "Link": "https://github.com/Jaagrav/CodeX",
+      "FinalLink": "https://github.com/Jaagrav/CodeX",
+      "statusCode": 404
+    },
+    {
+      "API": "CountAPI",
+      "Category": "Development",
+      "Link": "https://countapi.xyz",
+      "FinalLink": "https://countapi.xyz",
+      "statusCode": 0
+    },
+    {
+      "API": "GeekFlare",
+      "Category": "Development",
+      "Link": "https://apidocs.geekflare.com/docs/geekflare-api",
+      "FinalLink": "https://apidocs.geekflare.com/docs/geekflare-api",
+      "statusCode": 0
+    },
+    {
+      "API": "GETPing",
+      "Category": "Development",
+      "Link": "https://www.getping.info",
+      "FinalLink": "https://www.getping.info",
+      "statusCode": 0
+    },
+    {
+      "API": "Gitter",
+      "Category": "Development",
+      "Link": "https://developer.gitter.im/docs/welcome",
+      "FinalLink": "https://developer.gitter.im/docs/welcome",
+      "statusCode": 0
+    },
+    {
+      "API": "Glitterly",
+      "Category": "Development",
+      "Link": "https://developers.glitterly.app",
+      "FinalLink": "https://glitterly.app/",
+      "statusCode": 525
+    },
+    {
+      "API": "Gorest",
+      "Category": "Development",
+      "Link": "https://gorest.co.in/",
+      "FinalLink": "https://gorest.co.in/",
+      "statusCode": 404
+    },
+    {
+      "API": "Httpbin Cloudflare",
+      "Category": "Development",
+      "Link": "https://cloudflare-quic.com/b/",
+      "FinalLink": "https://cloudflare-quic.com/b/",
+      "statusCode": 404
+    },
+    {
+      "API": "Logs.to",
+      "Category": "Development",
+      "Link": "https://logs.to/",
+      "FinalLink": "https://logs.to/",
+      "statusCode": 0
+    },
+    {
+      "API": "Lua Decompiler",
+      "Category": "Development",
+      "Link": "https://lua-decompiler.ferib.dev/",
+      "FinalLink": "https://lua-decompiler.ferib.dev/",
+      "statusCode": 0
+    },
+    {
+      "API": "Mocky",
+      "Category": "Development",
+      "Link": "https://designer.mocky.io/",
+      "FinalLink": "https://designer.mocky.io/",
+      "statusCode": 0
+    },
+    {
+      "API": "OneSignal",
+      "Category": "Development",
+      "Link": "https://documentation.onesignal.com/docs/onesignal-api",
+      "FinalLink": "https://documentation.onesignal.com/docs/onesignal-api",
+      "statusCode": 404
+    },
+    {
+      "API": "Random Stuff",
+      "Category": "Development",
+      "Link": "https://api-docs.pgamerx.com/",
+      "FinalLink": "https://api-docs.pgamerx.com/",
+      "statusCode": 0
+    },
+    {
+      "API": "Tyk",
+      "Category": "Development",
+      "Link": "https://tyk.io/open-source/",
+      "FinalLink": "https://tyk.io/open-source/",
+      "statusCode": 404
+    },
+    {
+      "API": "Wandbox",
+      "Category": "Development",
+      "Link": "https://github.com/melpon/wandbox/blob/master/kennel2/API.rst",
+      "FinalLink": "https://github.com/melpon/wandbox/blob/master/kennel2/API.rst",
+      "statusCode": 404
+    },
+    {
+      "API": "Indonesia Dictionary",
+      "Category": "Dictionaries",
+      "Link": "https://new-kbbi-api.herokuapp.com/",
+      "FinalLink": "https://new-kbbi-api.herokuapp.com/",
+      "statusCode": 404
+    },
+    {
+      "API": "OwlBot",
+      "Category": "Dictionaries",
+      "Link": "https://owlbot.info/",
+      "FinalLink": "https://owlbot.info/",
+      "statusCode": 404
+    },
+    {
+      "API": "Mercury",
+      "Category": "Documents & Productivity",
+      "Link": "https://mercury.postlight.com/web-parser/",
+      "FinalLink": "https://mercury.postlight.com/web-parser/",
+      "statusCode": 0
+    },
+    {
+      "API": "Monday",
+      "Category": "Documents & Productivity",
+      "Link": "https://api.developer.monday.com/docs",
+      "FinalLink": "https://api.developer.monday.com/docs",
+      "statusCode": 0
+    },
+    {
+      "API": "Pocket",
+      "Category": "Documents & Productivity",
+      "Link": "https://getpocket.com/developer/",
+      "FinalLink": "https://getpocket.com/developer/",
+      "statusCode": 503
+    },
+    {
+      "API": "EVA",
+      "Category": "Email",
+      "Link": "https://eva.pingutil.com/",
+      "FinalLink": "https://eva.pingutil.com/",
+      "statusCode": 0
+    },
+    {
+      "API": "Mailtrap",
+      "Category": "Email",
+      "Link": "https://mailtrap.docs.apiary.io/#",
+      "FinalLink": "https://mailtrap.docs.apiary.io/#",
+      "statusCode": 404
+    },
+    {
+      "API": "Sendinblue",
+      "Category": "Email",
+      "Link": "https://developers.sendinblue.com/docs",
+      "FinalLink": "https://developers.brevo.com/docs",
+      "statusCode": 404
+    },
+    {
+      "API": "Verifier",
+      "Category": "Email",
+      "Link": "https://verifier.meetchopra.com/docs#/",
+      "FinalLink": "https://verifier.meetchopra.com/docs#/",
+      "statusCode": 0
+    },
+    {
+      "API": "Excuser",
+      "Category": "Entertainment",
+      "Link": "https://excuser.herokuapp.com/",
+      "FinalLink": "https://excuser.herokuapp.com/",
+      "statusCode": 404
+    },
+    {
+      "API": "Cloverly",
+      "Category": "Environment",
+      "Link": "https://www.cloverly.com/carbon-offset-documentation",
+      "FinalLink": "https://cloverly.com/carbon-offset-documentation",
+      "statusCode": 404
+    },
+    {
+      "API": "Danish data service Energi",
+      "Category": "Environment",
+      "Link": "https://www.energidataservice.dk/",
+      "FinalLink": "https://www.energidataservice.dk/",
+      "statusCode": 404
+    },
+    {
+      "API": "National Grid ESO",
+      "Category": "Environment",
+      "Link": "https://data.nationalgrideso.com/",
+      "FinalLink": "https://data.nationalgrideso.com/",
+      "statusCode": 0
+    },
+    {
+      "API": "Fed Treasury",
+      "Category": "Finance",
+      "Link": "https://fiscaldata.treasury.gov/api-documentation/",
+      "FinalLink": "https://fiscaldata.treasury.gov/api-documentation/",
+      "statusCode": 503
+    },
+    {
+      "API": "FRED",
+      "Category": "Finance",
+      "Link": "https://fred.stlouisfed.org/docs/api/fred/",
+      "FinalLink": "https://fred.stlouisfed.org/docs/api/fred/",
+      "statusCode": 0
+    },
+    {
+      "API": "Hotstoks",
+      "Category": "Finance",
+      "Link": "https://hotstoks.com?utm_source=public-apis",
+      "FinalLink": "https://hotstoks.com?utm_source=public-apis",
+      "statusCode": 0
+    },
+    {
+      "API": "IEX Cloud",
+      "Category": "Finance",
+      "Link": "https://iexcloud.io/docs/api/",
+      "FinalLink": "https://iexcloud.io/docs/api/",
+      "statusCode": 0
+    },
+    {
+      "API": "Klarna",
+      "Category": "Finance",
+      "Link": "https://docs.klarna.com/klarna-payments/api/payments-api/",
+      "FinalLink": "https://docs.klarna.com/klarna-payments/api/payments-api/",
+      "statusCode": 404
+    },
+    {
+      "API": "Nordigen",
+      "Category": "Finance",
+      "Link": "https://nordigen.com/en/account_information_documenation/integration/quickstart_guide/",
+      "FinalLink": "https://nordigen.com/en/account_information_documenation/integration/quickstart_guide/",
+      "statusCode": 0
+    },
+    {
+      "API": "Styvio",
+      "Category": "Finance",
+      "Link": "https://www.Styvio.com",
+      "FinalLink": "https://www.Styvio.com",
+      "statusCode": 0
+    },
+    {
+      "API": "Yahoo Finance",
+      "Category": "Finance",
+      "Link": "https://www.yahoofinanceapi.com/",
+      "FinalLink": "https://www.yahoofinanceapi.com/",
+      "statusCode": 0
+    },
+    {
+      "API": "LCBO",
+      "Category": "Food & Drink",
+      "Link": "https://lcboapi.com/",
+      "FinalLink": "https://lcboapi.com/",
+      "statusCode": 0
+    },
+    {
+      "API": "PunkAPI",
+      "Category": "Food & Drink",
+      "Link": "https://punkapi.com/",
+      "FinalLink": "https://punkapi.com/",
+      "statusCode": 0
+    },
+    {
+      "API": "Rustybeer",
+      "Category": "Food & Drink",
+      "Link": "https://rustybeer.herokuapp.com/",
+      "FinalLink": "https://rustybeer.herokuapp.com/",
+      "statusCode": 404
+    },
+    {
+      "API": "Systembolaget",
+      "Category": "Food & Drink",
+      "Link": "https://api-portal.systembolaget.se",
+      "FinalLink": "https://api-portal.systembolaget.se",
+      "statusCode": 0
+    },
+    {
+      "API": "Age of Empires II",
+      "Category": "Games & Comics",
+      "Link": "https://age-of-empires-2-api.herokuapp.com",
+      "FinalLink": "https://age-of-empires-2-api.herokuapp.com/",
+      "statusCode": 404
+    },
+    {
+      "API": "AmiiboAPI",
+      "Category": "Games & Comics",
+      "Link": "https://amiiboapi.com/",
+      "FinalLink": "https://amiiboapi.com/",
+      "statusCode": 0
+    },
+    {
+      "API": "Animal Crossing: New Horizons",
+      "Category": "Games & Comics",
+      "Link": "http://acnhapi.com/",
+      "FinalLink": "http://acnhapi.com/",
+      "statusCode": 0
+    },
+    {
+      "API": "Bugsnax",
+      "Category": "Games & Comics",
+      "Link": "https://www.bugsnaxapi.com/",
+      "FinalLink": "https://www.bugsnaxapi.com/",
+      "statusCode": 0
+    },
+    {
+      "API": "Crafatar",
+      "Category": "Games & Comics",
+      "Link": "https://crafatar.com",
+      "FinalLink": "https://crafatar.com/",
+      "statusCode": 521
+    },
+    {
+      "API": "FIFA Ultimate Team",
+      "Category": "Games & Comics",
+      "Link": "https://www.easports.com/fifa/ultimate-team/api/fut/item",
+      "FinalLink": "https://www.easports.com/fifa/ultimate-team/api/fut/item",
+      "statusCode": 503
+    },
+    {
+      "API": "Forza",
+      "Category": "Games & Comics",
+      "Link": "https://docs.forza-api.tk",
+      "FinalLink": "https://docs.forza-api.tk",
+      "statusCode": 0
+    },
+    {
+      "API": "Fun Facts",
+      "Category": "Games & Comics",
+      "Link": "https://asli-fun-fact-api.herokuapp.com/",
+      "FinalLink": "https://asli-fun-fact-api.herokuapp.com/",
+      "statusCode": 404
+    },
+    {
+      "API": "Giant Bomb",
+      "Category": "Games & Comics",
+      "Link": "https://www.giantbomb.com/api/documentation",
+      "FinalLink": "https://giantbomb.com/api/documentation",
+      "statusCode": 404
+    },
+    {
+      "API": "Mario Kart Tour",
+      "Category": "Games & Comics",
+      "Link": "https://mario-kart-tour-api.herokuapp.com/",
+      "FinalLink": "https://mario-kart-tour-api.herokuapp.com/",
+      "statusCode": 404
+    },
+    {
+      "API": "Mojang",
+      "Category": "Games & Comics",
+      "Link": "https://wiki.vg/Mojang_API",
+      "FinalLink": "https://wiki.vg/Mojang_API",
+      "statusCode": 0
+    },
+    {
+      "API": "RPS 101",
+      "Category": "Games & Comics",
+      "Link": "https://rps101.pythonanywhere.com/api",
+      "FinalLink": "https://rps101.pythonanywhere.com/api",
+      "statusCode": 404
+    },
+    {
+      "API": "TCGdex",
+      "Category": "Games & Comics",
+      "Link": "https://www.tcgdex.net/docs",
+      "FinalLink": "https://www.tcgdex.net/docs",
+      "statusCode": 404
+    },
+    {
+      "API": "Actinia Grass GIS",
+      "Category": "Geocoding",
+      "Link": "https://actinia.mundialis.de/api_docs/",
+      "FinalLink": "https://actinia.mundialis.de/api_docs/",
+      "statusCode": 404
+    },
+    {
+      "API": "BigDataCloud",
+      "Category": "Geocoding",
+      "Link": "https://www.bigdatacloud.com/ip-geolocation-apis",
+      "FinalLink": "https://www.bigdatacloud.com/ip-geolocation-apis",
+      "statusCode": 404
+    },
+    {
+      "API": "Bing Maps",
+      "Category": "Geocoding",
+      "Link": "https://www.microsoft.com/maps/",
+      "FinalLink": "https://www.microsoft.com/maps/",
+      "statusCode": 0
+    },
+    {
+      "API": "Geodata.gov.gr",
+      "Category": "Geocoding",
+      "Link": "https://geodata.gov.gr/en/",
+      "FinalLink": "https://geodata.gov.gr/en/",
+      "statusCode": 0
+    },
+    {
+      "API": "Hong Kong GeoData Store",
+      "Category": "Geocoding",
+      "Link": "https://geodata.gov.hk/gs/",
+      "FinalLink": "https://geodata.gov.hk/gs/",
+      "statusCode": 404
+    },
+    {
+      "API": "Queimadas INPE",
+      "Category": "Geocoding",
+      "Link": "https://queimadas.dgi.inpe.br/queimadas/dados-abertos/",
+      "FinalLink": "https://queimadas.dgi.inpe.br/queimadas/dados-abertos/",
+      "statusCode": 0
+    },
+    {
+      "API": "RoadGoat Cities",
+      "Category": "Geocoding",
+      "Link": "https://www.roadgoat.com/business/cities-api",
+      "FinalLink": "https://www.roadgoat.com/business/cities-api",
+      "statusCode": 0
+    },
+    {
+      "API": "SpotSense",
+      "Category": "Geocoding",
+      "Link": "https://spotsense.io/",
+      "FinalLink": "https://spotsense.io/",
+      "statusCode": 0
+    },
+    {
+      "API": "City, Prague Open Data",
+      "Category": "Government",
+      "Link": "http://opendata.praha.eu/en",
+      "FinalLink": "https://opendata.praha.eu/en",
+      "statusCode": 404
+    },
+    {
+      "API": "Food Standards Agency",
+      "Category": "Government",
+      "Link": "http://ratings.food.gov.uk/open-data/en-GB",
+      "FinalLink": "https://ratings.food.gov.uk/open-data/en-GB",
+      "statusCode": 404
+    },
+    {
+      "API": "INEI",
+      "Category": "Government",
+      "Link": "http://iinei.inei.gob.pe/microdatos/",
+      "FinalLink": "http://iinei.inei.gob.pe/microdatos/",
+      "statusCode": 0
+    },
+    {
+      "API": "Open Government, Estonia",
+      "Category": "Government",
+      "Link": "https://avaandmed.eesti.ee/instructions/opendata-dataset-api",
+      "FinalLink": "https://avaandmed.eesti.ee/instructions/opendata-dataset-api",
+      "statusCode": 0
+    },
+    {
+      "API": "Open Government, Mexico",
+      "Category": "Government",
+      "Link": "https://www.inegi.org.mx/datos/",
+      "FinalLink": "https://www.inegi.org.mx/datos/",
+      "statusCode": 0
+    },
+    {
+      "API": "Open Government, Norway",
+      "Category": "Government",
+      "Link": "https://data.norge.no/dataservices",
+      "FinalLink": "https://data.norge.no/data-services",
+      "statusCode": 405
+    },
+    {
+      "API": "Open Government, Romania",
+      "Category": "Government",
+      "Link": "http://data.gov.ro/",
+      "FinalLink": "http://data.gov.ro/",
+      "statusCode": 0
+    },
+    {
+      "API": "Open Government, Saudi Arabia",
+      "Category": "Government",
+      "Link": "https://data.gov.sa",
+      "FinalLink": "https://data.gov.sa",
+      "statusCode": 0
+    },
+    {
+      "API": "Open Government, Singapore",
+      "Category": "Government",
+      "Link": "https://data.gov.sg/developer",
+      "FinalLink": "https://guide.data.gov.sg/developers/apis",
+      "statusCode": 404
+    },
+    {
+      "API": "PRC Exam Schedule",
+      "Category": "Government",
+      "Link": "https://api.whenisthenextboardexam.com/docs/",
+      "FinalLink": "https://api.whenisthenextboardexam.com/docs/",
+      "statusCode": 0
+    },
+    {
+      "API": "US Presidential Election Data by TogaTech",
+      "Category": "Government",
+      "Link": "https://uselection.togatech.org/api/",
+      "FinalLink": "https://uselection.togatech.org/api/",
+      "statusCode": 404
+    },
+    {
+      "API": "USA.gov",
+      "Category": "Government",
+      "Link": "https://www.usa.gov/developer",
+      "FinalLink": "https://www.usa.gov/developer",
+      "statusCode": 404
+    },
+    {
+      "API": "Covid-19",
+      "Category": "Health",
+      "Link": "https://covid19api.com/",
+      "FinalLink": "https://covid19api.com/",
+      "statusCode": 0
+    },
+    {
+      "API": "COVID-19 Tracker Sri Lanka",
+      "Category": "Health",
+      "Link": "https://www.hpb.health.gov.lk/en/api-documentation",
+      "FinalLink": "https://hpb.health.gov.lk/en/api-documentation",
+      "statusCode": 404
+    },
+    {
+      "API": "COVID-ID",
+      "Category": "Health",
+      "Link": "https://data.covid19.go.id/public/api/prov.json",
+      "FinalLink": "https://data.covid19.go.id/public/api/prov.json",
+      "statusCode": 0
+    },
+    {
+      "API": "Quarantine",
+      "Category": "Health",
+      "Link": "https://quarantine.country/coronavirus/api/",
+      "FinalLink": "https://quarantine.country/coronavirus/api/",
+      "statusCode": 0
+    },
+    {
+      "API": "GraphQL Jobs",
+      "Category": "Jobs",
+      "Link": "https://graphql.jobs/docs/api/",
+      "FinalLink": "https://graphql.jobs/docs/api/",
+      "statusCode": 0
+    },
+    {
+      "API": "IPS Online",
+      "Category": "Machine Learning",
+      "Link": "https://docs.identity.ps/docs",
+      "FinalLink": "https://docs.identity.ps/docs",
+      "statusCode": 0
+    },
+    {
+      "API": "Machinetutors",
+      "Category": "Machine Learning",
+      "Link": "https://www.machinetutors.com/portfolio/MT_api.html",
+      "FinalLink": "https://machinetutors.com/portfolio/MT_api.html",
+      "statusCode": 404
+    },
+    {
+      "API": "OpenVisionAPI",
+      "Category": "Machine Learning",
+      "Link": "https://openvisionapi.com",
+      "FinalLink": "https://openvisionapi.com",
+      "statusCode": 0
+    },
+    {
+      "API": "WolframAlpha",
+      "Category": "Machine Learning",
+      "Link": "https://products.wolframalpha.com/api/",
+      "FinalLink": "https://products.wolframalpha.com/api/",
+      "statusCode": 404
+    },
+    {
+      "API": "iTunes Search",
+      "Category": "Music",
+      "Link": "https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/",
+      "FinalLink": "https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/",
+      "statusCode": 0
+    },
+    {
+      "API": "Napster",
+      "Category": "Music",
+      "Link": "https://developer.napster.com/api/v2.2",
+      "FinalLink": "https://developer.napster.com/api/v2.2",
+      "statusCode": 0
+    },
+    {
+      "API": "Songsterr",
+      "Category": "Music",
+      "Link": "https://www.songsterr.com/a/wa/api/",
+      "FinalLink": "https://www.songsterr.com/a/wa/api",
+      "statusCode": 404
+    },
+    {
+      "API": "TheAudioDB",
+      "Category": "Music",
+      "Link": "https://www.theaudiodb.com/api_guide.php",
+      "FinalLink": "https://www.theaudiodb.com/api_guide.php",
+      "statusCode": 404
+    },
+    {
+      "API": "Vagalume",
+      "Category": "Music",
+      "Link": "https://api.vagalume.com.br/docs/",
+      "FinalLink": "https://api.vagalume.com.br/docs/",
+      "statusCode": 503
+    },
+    {
+      "API": "Graphs for Coronavirus",
+      "Category": "News",
+      "Link": "https://corona.dnsforfamily.com/api.txt",
+      "FinalLink": "https://corona.dnsforfamily.com/api.txt",
+      "statusCode": 0
+    },
+    {
+      "API": "NPR One",
+      "Category": "News",
+      "Link": "http://dev.npr.org/api/",
+      "FinalLink": "http://dev.npr.org/api/",
+      "statusCode": 0
+    },
+    {
+      "API": "18F",
+      "Category": "Open Data",
+      "Link": "http://18f.github.io/API-All-the-X/",
+      "FinalLink": "http://18f.github.io/API-All-the-X/",
+      "statusCode": 404
+    },
+    {
+      "API": "Kaggle",
+      "Category": "Open Data",
+      "Link": "https://www.kaggle.com/docs/api",
+      "FinalLink": "https://www.kaggle.com/docs/api",
+      "statusCode": 404
+    },
+    {
+      "API": "Teleport",
+      "Category": "Open Data",
+      "Link": "https://developers.teleport.org/",
+      "FinalLink": "https://developers.teleport.org/",
+      "statusCode": 0
+    },
+    {
+      "API": "Yelp",
+      "Category": "Open Data",
+      "Link": "https://www.yelp.com/developers/documentation/v3",
+      "FinalLink": "https://www.yelp.com/developers/documentation/v3",
+      "statusCode": 404
+    },
+    {
+      "API": "Biriyani As A Service",
+      "Category": "Personality",
+      "Link": "https://biriyani.anoram.com/",
+      "FinalLink": "https://biriyani.anoram.com/",
+      "statusCode": 503
+    },
+    {
+      "API": "Inspiration",
+      "Category": "Personality",
+      "Link": "https://inspiration.goprogram.ai/docs/",
+      "FinalLink": "https://inspiration.goprogram.ai/docs/",
+      "statusCode": 0
+    },
+    {
+      "API": "kimiquotes",
+      "Category": "Personality",
+      "Link": "https://kimiquotes.herokuapp.com/doc",
+      "FinalLink": "https://kimiquotes.herokuapp.com/doc",
+      "statusCode": 404
+    },
+    {
+      "API": "Quote Garden",
+      "Category": "Personality",
+      "Link": "https://pprathameshmore.github.io/QuoteGarden/",
+      "FinalLink": "https://pprathameshmore.github.io/QuoteGarden/",
+      "statusCode": 0
+    },
+    {
+      "API": "quoteclear",
+      "Category": "Personality",
+      "Link": "https://quoteclear.web.app/",
+      "FinalLink": "https://quoteclear.web.app/",
+      "statusCode": 404
+    },
+    {
+      "API": "Vadivelu HTTP Codes",
+      "Category": "Personality",
+      "Link": "https://vadivelu.anoram.com/",
+      "FinalLink": "https://vadivelu.anoram.com/",
+      "statusCode": 0
+    },
+    {
+      "API": "Bruzu",
+      "Category": "Photography",
+      "Link": "https://docs.bruzu.com",
+      "FinalLink": "https://docs.bruzu.com",
+      "statusCode": 0
+    },
+    {
+      "API": "Duply",
+      "Category": "Photography",
+      "Link": "https://duply.co/docs#getting-started-api",
+      "FinalLink": "https://duply.co/docs#getting-started-api",
+      "statusCode": 404
+    },
+    {
+      "API": "Gfycat",
+      "Category": "Photography",
+      "Link": "https://developers.gfycat.com/api/",
+      "FinalLink": "https://developers.gfycat.com/api/",
+      "statusCode": 0
+    },
+    {
+      "API": "Imsea",
+      "Category": "Photography",
+      "Link": "https://imsea.herokuapp.com/",
+      "FinalLink": "https://imsea.herokuapp.com/",
+      "statusCode": 404
+    },
+    {
+      "API": "Pexels",
+      "Category": "Photography",
+      "Link": "https://www.pexels.com/api/",
+      "FinalLink": "https://www.pexels.com/api/",
+      "statusCode": 503
+    },
+    {
+      "API": "KONTESTS",
+      "Category": "Programming",
+      "Link": "https://kontests.net/api",
+      "FinalLink": "https://kontests.net/api",
+      "statusCode": 0
+    },
+    {
+      "API": "arXiv",
+      "Category": "Science & Math",
+      "Link": "https://arxiv.org/help/api/user-manual",
+      "FinalLink": "https://info.arxiv.org/help/api/user-manual",
+      "statusCode": 404
+    },
+    {
+      "API": "Numbers",
+      "Category": "Science & Math",
+      "Link": "http://numbersapi.com",
+      "FinalLink": "http://numbersapi.com",
+      "statusCode": 0
+    },
+    {
+      "API": "Ocean Facts",
+      "Category": "Science & Math",
+      "Link": "https://oceanfacts.herokuapp.com/",
+      "FinalLink": "https://oceanfacts.herokuapp.com/",
+      "statusCode": 404
+    },
+    {
+      "API": "SpaceX",
+      "Category": "Science & Math",
+      "Link": "https://api.spacex.land/graphql/",
+      "FinalLink": "https://api.spacex.land/graphql/",
+      "statusCode": 0
+    },
+    {
+      "API": "xMath",
+      "Category": "Science & Math",
+      "Link": "https://x-math.herokuapp.com/",
+      "FinalLink": "https://x-math.herokuapp.com/",
+      "statusCode": 404
+    },
+    {
+      "API": "Classify",
+      "Category": "Security",
+      "Link": "https://classify-web.herokuapp.com/#/api",
+      "FinalLink": "https://classify-web.herokuapp.com/#/api",
+      "statusCode": 404
+    },
+    {
+      "API": "CRXcavator",
+      "Category": "Security",
+      "Link": "https://crxcavator.io/apidocs",
+      "FinalLink": "https://crxcavator.io/apidocs",
+      "statusCode": 0
+    },
+    {
+      "API": "Dehash.lt",
+      "Category": "Security",
+      "Link": "https://github.com/Dehash-lt/api",
+      "FinalLink": "https://github.com/Dehash-lt/api",
+      "statusCode": 404
+    },
+    {
+      "API": "GitGuardian",
+      "Category": "Security",
+      "Link": "https://api.gitguardian.com/doc",
+      "FinalLink": "https://api.gitguardian.com/doc",
+      "statusCode": 404
+    },
+    {
+      "API": "Hashable",
+      "Category": "Security",
+      "Link": "https://hashable.space/pages/api/",
+      "FinalLink": "https://hashable.space/pages/api/",
+      "statusCode": 0
+    },
+    {
+      "API": "Threat Jammer",
+      "Category": "Security",
+      "Link": "https://threatjammer.com/docs/index",
+      "FinalLink": "https://threatjammer.com/docs/index",
+      "statusCode": 0
+    },
+    {
+      "API": "Virushee",
+      "Category": "Security",
+      "Link": "https://api.virushee.com/",
+      "FinalLink": "https://api.virushee.com/",
+      "statusCode": 0
+    },
+    {
+      "API": "Dummy Products",
+      "Category": "Shopping",
+      "Link": "https://dummyproducts-api.herokuapp.com/",
+      "FinalLink": "https://dummyproducts-api.herokuapp.com/",
+      "statusCode": 404
+    },
+    {
+      "API": "aztro",
+      "Category": "Social",
+      "Link": "https://aztro.sameerkumar.website/",
+      "FinalLink": "https://aztro.sameerkumar.website/",
+      "statusCode": 404
+    },
+    {
+      "API": "Cisco Spark",
+      "Category": "Social",
+      "Link": "https://developer.ciscospark.com",
+      "FinalLink": "https://developer.ciscospark.com",
+      "statusCode": 0
+    },
+    {
+      "API": "Dangerous Discord Database",
+      "Category": "Social",
+      "Link": "https://discord.riverside.rocks/docs/index.php",
+      "FinalLink": "https://discord.riverside.rocks/docs/index.php",
+      "statusCode": 0
+    },
+    {
+      "API": "Doge-Meme",
+      "Category": "Social",
+      "Link": "https://api.doge-meme.lol/docs",
+      "FinalLink": "https://api.doge-meme.lol/docs",
+      "statusCode": 0
+    },
+    {
+      "API": "Revolt",
+      "Category": "Social",
+      "Link": "https://developers.revolt.chat/api/",
+      "FinalLink": "https://developers.stoat.chat/api/",
+      "statusCode": 404
+    },
+    {
+      "API": "TikTok",
+      "Category": "Social",
+      "Link": "https://developers.tiktok.com/doc/login-kit-web",
+      "FinalLink": "https://developers.tiktok.com/doc/login-kit-web",
+      "statusCode": 503
+    },
+    {
+      "API": "vk",
+      "Category": "Social",
+      "Link": "https://vk.com/dev/sites",
+      "FinalLink": "https://vk.com/dev/sites",
+      "statusCode": 418
+    },
+    {
+      "API": "ApiMedic",
+      "Category": "Sports & Fitness",
+      "Link": "https://apimedic.com/",
+      "FinalLink": "https://apimedic.com/",
+      "statusCode": 404
+    },
+    {
+      "API": "Canadian Football League (CFL)",
+      "Category": "Sports & Fitness",
+      "Link": "http://api.cfl.ca/",
+      "FinalLink": "http://api.cfl.ca/",
+      "statusCode": 0
+    },
+    {
+      "API": "Ergast F1",
+      "Category": "Sports & Fitness",
+      "Link": "http://ergast.com/mrd/",
+      "FinalLink": "https://ergast.com/mrd/",
+      "statusCode": 404
+    },
+    {
+      "API": "JCDecaux Bike",
+      "Category": "Sports & Fitness",
+      "Link": "https://developer.jcdecaux.com/",
+      "FinalLink": "https://developer.jcdecaux.com/",
+      "statusCode": 501
+    },
+    {
+      "API": "Sport Data",
+      "Category": "Sports & Fitness",
+      "Link": "https://sportdataapi.com",
+      "FinalLink": "https://sportdataapi.com/",
+      "statusCode": 404
+    },
+    {
+      "API": "Sport List & Data",
+      "Category": "Sports & Fitness",
+      "Link": "https://developers.decathlon.com/products/sports",
+      "FinalLink": "https://developers.decathlon.com/products/sports",
+      "statusCode": 0
+    },
+    {
+      "API": "Sport Places",
+      "Category": "Sports & Fitness",
+      "Link": "https://developers.decathlon.com/products/sport-places",
+      "FinalLink": "https://developers.decathlon.com/products/sport-places",
+      "statusCode": 0
+    },
+    {
+      "API": "Sport Vision",
+      "Category": "Sports & Fitness",
+      "Link": "https://developers.decathlon.com/products/sport-vision",
+      "FinalLink": "https://developers.decathlon.com/products/sport-vision",
+      "statusCode": 0
+    },
+    {
+      "API": "SuredBits",
+      "Category": "Sports & Fitness",
+      "Link": "https://suredbits.com/api/",
+      "FinalLink": "https://suredbits.com/api/",
+      "statusCode": 0
+    },
+    {
+      "API": "English Random Words",
+      "Category": "Test Data",
+      "Link": "https://random-words-api.vercel.app/word",
+      "FinalLink": "https://random-words-api.vercel.app/word",
+      "statusCode": 404
+    },
+    {
+      "API": "Loripsum",
+      "Category": "Test Data",
+      "Link": "http://loripsum.net/",
+      "FinalLink": "http://loripsum.net/",
+      "statusCode": 0
+    },
+    {
+      "API": "QuickMocker",
+      "Category": "Test Data",
+      "Link": "https://quickmocker.com",
+      "FinalLink": "https://quickmocker.com",
+      "statusCode": 0
+    },
+    {
+      "API": "Random Data",
+      "Category": "Test Data",
+      "Link": "https://random-data-api.com",
+      "FinalLink": "https://random-data-api.com",
+      "statusCode": 0
+    },
+    {
+      "API": "Spanish random names",
+      "Category": "Test Data",
+      "Link": "https://random-names-api.herokuapp.com/public",
+      "FinalLink": "https://random-names-api.herokuapp.com/public",
+      "statusCode": 404
+    },
+    {
+      "API": "Spanish random words",
+      "Category": "Test Data",
+      "Link": "https://palabras-aleatorias-public-api.herokuapp.com",
+      "FinalLink": "https://palabras-aleatorias-public-api.herokuapp.com/",
+      "statusCode": 404
+    },
+    {
+      "API": "Toolcarton",
+      "Category": "Test Data",
+      "Link": "https://testimonialapi.toolcarton.com/",
+      "FinalLink": "https://testimonialapi.toolcarton.com/",
+      "statusCode": 0
+    },
+    {
+      "API": "Aylien Text Analysis",
+      "Category": "Text Analysis",
+      "Link": "https://docs.aylien.com/textapi/#getting-started",
+      "FinalLink": "https://docs.aylien.com/textapi/#getting-started",
+      "statusCode": 0
+    },
+    {
+      "API": "Sentiment Analysis",
+      "Category": "Text Analysis",
+      "Link": "https://www.meaningcloud.com/developer/sentiment-analysis",
+      "FinalLink": "https://www.meaningcloud.com/developer/sentiment-analysis",
+      "statusCode": 0
+    },
+    {
+      "API": "UPS",
+      "Category": "Tracking",
+      "Link": "https://www.ups.com/upsdeveloperkit",
+      "FinalLink": "https://www.ups.com/upsdeveloperkit",
+      "statusCode": 0
+    },
+    {
+      "API": "AviationAPI",
+      "Category": "Transportation",
+      "Link": "https://docs.aviationapi.com",
+      "FinalLink": "https://docs.aviationapi.com",
+      "statusCode": 0
+    },
+    {
+      "API": "BlaBlaCar",
+      "Category": "Transportation",
+      "Link": "https://dev.blablacar.com",
+      "FinalLink": "https://dev.blablacar.com/",
+      "statusCode": 404
+    },
+    {
+      "API": "Impala Hotel Bookings",
+      "Category": "Transportation",
+      "Link": "https://docs.impala.travel/docs/booking-api/",
+      "FinalLink": "https://docs.impala.travel/docs/booking-api/",
+      "statusCode": 0
+    },
+    {
+      "API": "OpenSky Network",
+      "Category": "Transportation",
+      "Link": "https://opensky-network.org/apidoc/index.html",
+      "FinalLink": "https://opensky-network.org/apidoc/index.html",
+      "statusCode": 404
+    },
+    {
+      "API": "Railway Transport for France",
+      "Category": "Transportation",
+      "Link": "https://www.digital.sncf.com/startup/api",
+      "FinalLink": "https://www.digital.sncf.com/startup/api",
+      "statusCode": 400
+    },
+    {
+      "API": "Sabre for Developers",
+      "Category": "Transportation",
+      "Link": "https://developer.sabre.com/guides/travel-agency/quickstart/getting-started-in-travel",
+      "FinalLink": "https://developer.sabre.com/guides/travel-agency/quickstart/getting-started-in-travel",
+      "statusCode": 404
+    },
+    {
+      "API": "Transport for Czech Republic",
+      "Category": "Transportation",
+      "Link": "https://www.chaps.cz/eng/products/idos-internet",
+      "FinalLink": "https://www.chaps.cz/eng/products/idos-internet",
+      "statusCode": 0
+    },
+    {
+      "API": "Transport for Denver, US",
+      "Category": "Transportation",
+      "Link": "http://www.rtd-denver.com/gtfs-developer-guide.shtml",
+      "FinalLink": "https://www.rtd-denver.com/gtfs-developer-guide.shtml",
+      "statusCode": 404
+    },
+    {
+      "API": "Transport for Germany",
+      "Category": "Transportation",
+      "Link": "http://data.deutschebahn.com/dataset/api-fahrplan",
+      "FinalLink": "http://data.deutschebahn.com/dataset/api-fahrplan",
+      "statusCode": 0
+    },
+    {
+      "API": "Transport for London, England",
+      "Category": "Transportation",
+      "Link": "https://api.tfl.gov.uk",
+      "FinalLink": "https://api.tfl.gov.uk/",
+      "statusCode": 404
+    },
+    {
+      "API": "Transport for Vancouver, Canada",
+      "Category": "Transportation",
+      "Link": "https://developer.translink.ca/",
+      "FinalLink": "https://developer.translink.ca/",
+      "statusCode": 404
+    },
+    {
+      "API": "Tripadvisor",
+      "Category": "Transportation",
+      "Link": "https://developer-tripadvisor.com/home/",
+      "FinalLink": "https://developer-tripadvisor.com/home/",
+      "statusCode": 404
+    },
+    {
+      "API": "ClickMeter",
+      "Category": "URL Shorteners",
+      "Link": "https://support.clickmeter.com/hc/en-us/categories/201474986",
+      "FinalLink": "https://support.clickmeter.com/hc/en-us/categories/201474986",
+      "statusCode": 0
+    },
+    {
+      "API": "Kutt",
+      "Category": "URL Shorteners",
+      "Link": "https://docs.kutt.it/",
+      "FinalLink": "https://docs.kutt.it/",
+      "statusCode": 0
+    },
+    {
+      "API": "owo",
+      "Category": "URL Shorteners",
+      "Link": "https://owo.vc/api",
+      "FinalLink": "https://owo.vc/api",
+      "statusCode": 404
+    },
+    {
+      "API": "Short Link",
+      "Category": "URL Shorteners",
+      "Link": "https://github.com/FayasNoushad/Short-Link-API",
+      "FinalLink": "https://github.com/FayasNoushad/Short-Link-API",
+      "statusCode": 404
+    },
+    {
+      "API": "Shrtlnk",
+      "Category": "URL Shorteners",
+      "Link": "https://shrtlnk.dev/developer",
+      "FinalLink": "https://shrtlnk.dev/developer",
+      "statusCode": 404
+    },
+    {
+      "API": "Bob's Burgers",
+      "Category": "Video",
+      "Link": "https://bobs-burgers-api-ui.herokuapp.com",
+      "FinalLink": "https://bobs-burgers-api-ui.herokuapp.com/",
+      "statusCode": 503
+    },
+    {
+      "API": "Breaking Bad",
+      "Category": "Video",
+      "Link": "https://breakingbadapi.com/documentation",
+      "FinalLink": "https://breakingbadapi.com/documentation",
+      "statusCode": 0
+    },
+    {
+      "API": "Catalogopolis",
+      "Category": "Video",
+      "Link": "https://api.catalogopolis.xyz/docs/",
+      "FinalLink": "https://api.catalogopolis.xyz/docs/",
+      "statusCode": 0
+    },
+    {
+      "API": "Catch The Show",
+      "Category": "Video",
+      "Link": "https://catchtheshow.herokuapp.com/api/documentation",
+      "FinalLink": "https://catchtheshow.herokuapp.com/api/documentation",
+      "statusCode": 404
+    },
+    {
+      "API": "Harry Potter Charactes",
+      "Category": "Video",
+      "Link": "https://hp-api.herokuapp.com/",
+      "FinalLink": "https://hp-api.herokuapp.com/",
+      "statusCode": 404
+    },
+    {
+      "API": "IMDb-API",
+      "Category": "Video",
+      "Link": "https://imdb-api.com/",
+      "FinalLink": "https://imdb-api.com/",
+      "statusCode": 0
+    },
+    {
+      "API": "Motivational Quotes",
+      "Category": "Video",
+      "Link": "https://nodejs-quoteapp.herokuapp.com/",
+      "FinalLink": "https://nodejs-quoteapp.herokuapp.com/",
+      "statusCode": 404
+    },
+    {
+      "API": "Owen Wilson Wow",
+      "Category": "Video",
+      "Link": "https://owen-wilson-wow-api.herokuapp.com",
+      "FinalLink": "https://owen-wilson-wow-api.herokuapp.com/",
+      "statusCode": 404
+    },
+    {
+      "API": "SWAPI",
+      "Category": "Video",
+      "Link": "https://swapi.dev/",
+      "FinalLink": "https://swapi.dev/",
+      "statusCode": 0
+    },
+    {
+      "API": "SWAPI",
+      "Category": "Video",
+      "Link": "https://www.swapi.tech",
+      "FinalLink": "https://www.swapi.tech/",
+      "statusCode": 503
+    },
+    {
+      "API": "Aemet",
+      "Category": "Weather",
+      "Link": "https://opendata.aemet.es/centrodedescargas/inicio",
+      "FinalLink": "https://opendata.aemet.es/centrodedescargas/inicio",
+      "statusCode": 0
+    },
+    {
+      "API": "ColorfulClouds",
+      "Category": "Weather",
+      "Link": "https://open.caiyunapp.com/ColorfulClouds_Weather_API",
+      "FinalLink": "https://open.caiyunapp.com/ColorfulClouds_Weather_API",
+      "statusCode": 0
+    },
+    {
+      "API": "MetaWeather",
+      "Category": "Weather",
+      "Link": "https://www.metaweather.com/api/",
+      "FinalLink": "https://www.metaweather.com/api/",
+      "statusCode": 0
+    }
+  ]
+}

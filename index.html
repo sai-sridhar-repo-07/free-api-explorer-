@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Free API Keys is a fast, searchable directory of public APIs for builders, students, and side projects."
+    >
+    <title>Free API Keys</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="app-header">
+      <nav class="topbar" aria-label="Primary">
+        <a class="brand" href="./" aria-label="Free API Keys home">
+          <span class="brand-mark">FA</span>
+          <span>Free API Keys</span>
+        </a>
+        <div class="topbar-actions">
+          <a href="https://github.com/public-apis/public-apis" target="_blank" rel="noreferrer">Data Source</a>
+          <a href="#catalog">Browse</a>
+        </div>
+      </nav>
+
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Public APIs for real projects</p>
+          <h1 id="page-title">Find a free API before your idea gets cold.</h1>
+          <p class="hero-text">
+            Search useful public APIs by category, authentication, HTTPS support, browser CORS behavior,
+            and verified documentation status.
+          </p>
+        </div>
+        <div class="hero-panel" aria-label="Catalog summary">
+          <div>
+            <span id="totalApis">...</span>
+            <small>APIs indexed</small>
+          </div>
+          <div>
+            <span id="categoryCount">...</span>
+            <small>Categories</small>
+          </div>
+          <div>
+            <span id="noAuthCount">...</span>
+            <small>No-auth APIs</small>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main id="catalog" class="catalog-shell">
+      <section class="controls" aria-label="Search and filters">
+        <label class="search-field">
+          <span>Search APIs</span>
+          <input id="searchInput" type="search" placeholder="Try weather, finance, anime, maps..." autocomplete="off">
+        </label>
+
+        <label>
+          <span>Category</span>
+          <select id="categoryFilter">
+            <option value="all">All categories</option>
+          </select>
+        </label>
+
+        <label>
+          <span>Auth</span>
+          <select id="authFilter">
+            <option value="all">Any auth</option>
+            <option value="No">No auth</option>
+            <option value="apiKey">API key</option>
+            <option value="OAuth">OAuth</option>
+          </select>
+        </label>
+
+        <label>
+          <span>HTTPS</span>
+          <select id="httpsFilter">
+            <option value="all">Any</option>
+            <option value="true">HTTPS only</option>
+            <option value="false">HTTP allowed</option>
+          </select>
+        </label>
+
+        <label>
+          <span>CORS</span>
+          <select id="corsFilter">
+            <option value="all">Any CORS</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+            <option value="unknown">Unknown</option>
+          </select>
+        </label>
+
+        <label>
+          <span>Docs</span>
+          <select id="docsFilter">
+            <option value="reliable">Reliable docs</option>
+            <option value="all">Any status</option>
+            <option value="ok">Verified</option>
+            <option value="github">GitHub docs</option>
+            <option value="limited">Blocked/protected</option>
+            <option value="unchecked">Unchecked</option>
+            <option value="bad">Needs review</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="toolbar" aria-live="polite">
+        <p id="resultCount">Loading APIs...</p>
+        <div class="toolbar-actions">
+          <button id="randomButton" type="button">Random API</button>
+          <button id="clearButton" type="button" class="secondary-button">Clear filters</button>
+        </div>
+      </section>
+
+      <section id="apiGrid" class="api-grid" aria-label="API results"></section>
+
+      <section id="emptyState" class="empty-state" hidden>
+        <h2>No matching APIs</h2>
+        <p>Try a broader keyword or remove one filter.</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        Built by this repository's author. Catalog data is transformed from the public-apis project under its MIT license.
+      </p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
