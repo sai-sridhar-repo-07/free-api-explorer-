@@ -154,12 +154,8 @@ function applyFilters() {
 function renderEntries(entries) {
   els.resultCount.textContent = `${entries.length.toLocaleString()} ${entries.length === 1 ? "API" : "APIs"} found`;
   els.emptyState.hidden = entries.length > 0;
-  els.apiGrid.innerHTML = entries.slice(0, 120).map(renderCard).join("");
+  els.apiGrid.innerHTML = entries.map(renderCard).join("");
   els.apiGrid.classList.toggle("is-empty", entries.length === 0);
-
-  if (entries.length > 120) {
-    els.resultCount.textContent += " - showing first 120";
-  }
 
   requestAnimationFrame(() => {
     els.apiGrid.classList.remove("is-filtering");
@@ -255,7 +251,7 @@ function clearFilters() {
   els.authFilter.value = "all";
   els.httpsFilter.value = "all";
   els.corsFilter.value = "all";
-  els.docsFilter.value = "reliable";
+  els.docsFilter.value = "all";
   applyFilters();
 }
 
