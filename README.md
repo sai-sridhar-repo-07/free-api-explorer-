@@ -1,66 +1,39 @@
 # Free API Explorer
 
-Free API Explorer is a fast, searchable directory of public APIs for builders, students, and side projects. It helps you find APIs by category, authentication type, HTTPS support, browser CORS support, and documentation quality.
+Free API Explorer is a searchable directory of public APIs for developers, students, and makers who want to build projects faster.
 
-The project turns a large public API catalog into a cleaner browsing experience with verified documentation status, useful filters, summary stats, and random API discovery.
+Instead of scrolling through a long list of API links, this project gives people a cleaner way to discover APIs by category, authentication type, HTTPS support, browser CORS support, and documentation quality.
 
-## Live App
+## What This Repo Is About
 
-This is a static frontend project, so it can be hosted directly on GitHub Pages. After enabling Pages, open your repository's Pages URL to use the app.
+This repository contains a simple, static web app that organizes public API data into an easier browsing experience. It is made for anyone looking for an API for a side project, hackathon, learning app, dashboard, automation script, or prototype.
 
-## What It Does
+The goal is to make API discovery faster and more understandable. Each API is shown with practical details so users can quickly decide whether it fits their project.
 
-Free API Explorer lets developers quickly discover APIs for side projects, hackathons, student apps, dashboards, prototypes, and learning projects. Instead of scrolling through a giant Markdown list, you can search, filter, and understand each API from a clean card-based interface.
+## Why It Is Useful
 
-## Features
+- Helps developers find APIs without searching across many websites
+- Saves time by showing category, auth, HTTPS, CORS, and docs status in one place
+- Highlights reliable documentation links first
+- Marks broken or suspicious documentation links instead of hiding the problem
+- Gives beginners a friendlier way to explore APIs for project ideas
+- Works as a lightweight static site with no backend required
 
-- Search public APIs by name, description, or category
-- Filter by category, auth type, HTTPS support, CORS support, and docs status
-- Open verified docs, GitHub-hosted docs, or fallback documentation search
-- Random API picker for project inspiration
-- Local JSON catalog snapshot in `data/apis.json`
-- Link verification report in `data/link-report.json`
-- Static, dependency-free frontend that can run on GitHub Pages
+## Main Features
 
-## Documentation Status
+- Search APIs by name, description, or category
+- Filter APIs by category, auth type, HTTPS, CORS, and docs status
+- View clear labels for verified docs, GitHub docs, protected docs, and links needing review
+- Open official API documentation when available
+- Use fallback documentation search when a source link needs review
+- Pick a random API for project inspiration
+- Browse a local catalog snapshot with over 1,400 API entries
 
-The project checks every API documentation URL and labels it clearly:
+## Documentation Quality
 
-- `Verified docs`: the docs URL responded successfully
-- `GitHub docs`: the API documentation is hosted in a GitHub repository or GitHub Pages site
-- `Protected docs`: the site exists but blocks automated checks with auth, rate limits, or bot protection
-- `Needs review`: the docs URL returned an error such as 404 or could not be reached
+Free API Explorer does not blindly trust every source link. The catalog includes a link verification report so users can understand which documentation links are reliable and which ones may need manual review.
 
-The default app view focuses on reliable documentation so users do not immediately run into broken links.
-
-## Project Structure
-
-```txt
-.
-├── index.html
-├── styles.css
-├── app.js
-├── favicon.svg
-├── data/
-│   ├── apis.json
-│   ├── link-report.json
-│   └── upstream-public-apis.md
-└── scripts/
-    ├── build-data.js
-    └── verify-links.js
-```
-
-## Run Locally
-
-Serve the folder with any static server.
-
-```bash
-python3 -m http.server 8080
-```
-
-Then visit `http://localhost:8080`.
-
-## Current Catalog Stats
+Current catalog snapshot:
 
 - `1,426` APIs
 - `51` categories
@@ -69,30 +42,14 @@ Then visit `http://localhost:8080`.
 - `48` protected documentation links
 - `231` links marked as needing review
 
-## Refresh The Catalog
+## Who Can Use This
 
-Download a fresh upstream README snapshot, then rebuild the local JSON data.
-
-```bash
-curl -L https://raw.githubusercontent.com/public-apis/public-apis/master/README.md -o data/upstream-public-apis.md
-node scripts/build-data.js
-```
-
-## Verify Links
-
-Run the verifier after refreshing data. It follows redirects, records status codes, and marks docs as verified, GitHub-hosted, protected, or needing review.
-
-```bash
-node scripts/verify-links.js 24
-```
-
-## Deploy On GitHub Pages
-
-1. Push this folder to a GitHub repository.
-2. Go to repository `Settings`.
-3. Open `Pages`.
-4. Select the main branch and root folder.
-5. Save, then open the published GitHub Pages URL.
+- Students looking for project APIs
+- Developers building prototypes
+- Hackathon participants
+- Open-source contributors
+- People learning API integration
+- Anyone searching for free or public API resources
 
 ## Author
 
