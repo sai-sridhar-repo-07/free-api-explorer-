@@ -33,7 +33,8 @@ const fallbackEntries = [
 
 const state = {
   entries: [],
-  filtered: []
+  filtered: [],
+  hasRendered: false
 };
 
 const els = {
@@ -121,6 +122,7 @@ function updateStats() {
 }
 
 function applyFilters() {
+  markFiltering();
   const query = els.searchInput.value.trim().toLowerCase();
   const category = els.categoryFilter.value;
   const auth = els.authFilter.value;
@@ -153,10 +155,22 @@ function renderEntries(entries) {
   els.resultCount.textContent = `${entries.length.toLocaleString()} ${entries.length === 1 ? "API" : "APIs"} found`;
   els.emptyState.hidden = entries.length > 0;
   els.apiGrid.innerHTML = entries.slice(0, 120).map(renderCard).join("");
+  els.apiGrid.classList.toggle("is-empty", entries.length === 0);
 
   if (entries.length > 120) {
     els.resultCount.textContent += " - showing first 120";
   }
+
+  requestAnimationFrame(() => {
+    els.apiGrid.classList.remove("is-filtering");
+    els.apiGrid.classList.add("has-rendered");
+    state.hasRendered = true;
+  });
+}
+
+function markFiltering() {
+  if (!state.hasRendered) return;
+  els.apiGrid.classList.add("is-filtering");
 }
 
 function renderCard(entry) {
@@ -278,11 +292,18 @@ function escapeAttribute(value) {
 }
 
 ["input", "change"].forEach((eventName) => {
-  els.searchInput.addEventListener(eventName, applyFilters);
+  els.searchInput.addEventListener(eventName, () => {
+    els.searchInput.classList.toggle("has-query", els.searchInput.value.trim().length > 0);
+    applyFilters();
+  });
 });
 
 [els.categoryFilter, els.authFilter, els.httpsFilter, els.corsFilter, els.docsFilter].forEach((filter) => {
-  filter.addEventListener("change", applyFilters);
+  filter.addEventListener("change", () => {
+    filter.classList.add("filter-changed");
+    window.setTimeout(() => filter.classList.remove("filter-changed"), 360);
+    applyFilters();
+  });
 });
 
 els.randomButton.addEventListener("click", showRandomApi);

@@ -257,6 +257,30 @@ h1 {
   animation: riseIn 520ms ease both;
 }
 
+.controls label {
+  animation: controlIn 480ms ease both;
+}
+
+.controls label:nth-child(2) {
+  animation-delay: 40ms;
+}
+
+.controls label:nth-child(3) {
+  animation-delay: 80ms;
+}
+
+.controls label:nth-child(4) {
+  animation-delay: 120ms;
+}
+
+.controls label:nth-child(5) {
+  animation-delay: 160ms;
+}
+
+.controls label:nth-child(6) {
+  animation-delay: 200ms;
+}
+
 label {
   display: grid;
   gap: 7px;
@@ -284,12 +308,24 @@ select:focus {
   box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.14);
 }
 
+input.has-query {
+  background:
+    linear-gradient(#ffffff, #ffffff) padding-box,
+    linear-gradient(120deg, var(--accent), var(--mint), var(--sea)) border-box;
+  border-color: transparent;
+}
+
+.filter-changed {
+  animation: filterPop 340ms ease;
+}
+
 .toolbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
   padding: 24px 0 18px;
+  animation: riseIn 540ms ease 110ms both;
 }
 
 .toolbar-actions {
@@ -353,6 +389,16 @@ button:hover::after {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+
+.api-grid.is-filtering {
+  opacity: 0.58;
+  transform: translateY(6px);
+}
+
+.api-grid.is-empty {
+  min-height: 0;
 }
 
 .api-card {
@@ -399,6 +445,12 @@ button:hover::after {
 .api-card:hover::after {
   opacity: 0.62;
   transform: translateX(120%);
+}
+
+.api-card:hover .category-pill,
+.api-card:hover .docs-status,
+.api-card:hover .meta {
+  animation: softPop 420ms ease;
 }
 
 .api-card > * {
@@ -577,6 +629,7 @@ button:hover::after {
 .empty-state {
   padding: 60px 20px;
   text-align: center;
+  animation: riseIn 360ms ease both;
 }
 
 .empty-state h2 {
@@ -608,6 +661,29 @@ button:hover::after {
   }
 }
 
+@keyframes controlIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes filterPop {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  45% {
+    transform: scale(1.025);
+  }
+}
+
 @keyframes titleIn {
   from {
     opacity: 0;
@@ -629,6 +705,17 @@ button:hover::after {
   to {
     opacity: 1;
     transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes softPop {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  45% {
+    transform: translateY(-1px);
   }
 }
 
